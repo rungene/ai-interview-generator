@@ -15,7 +15,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://rungene.github.io/ai-interview-generator"
+        "https://rungene.github.io"
     ],
     allow_credentials=True,
     allow_methods=["*"],
